@@ -31,9 +31,12 @@ variable "rds_instance_type" {
 variable "environment" {
   description = "The environment of the project."
   type        = string
+  default     = "team4"
 }
 
 variable "owner" {
   description = "The owner of the infrastructure."
   type        = string
+  default     = "team4"
 }
+
